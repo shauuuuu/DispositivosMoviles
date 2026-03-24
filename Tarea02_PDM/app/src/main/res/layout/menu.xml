@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Café Sócrates"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona tu bebida:"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgBebidas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/rbChai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chai Tradicional" />
+
+            <RadioButton
+                android:id="@+id/rbCafe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Café Americano" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agrega extras:"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <CheckBox
+            android:id="@+id/cbLeche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leche de almendras" />
+
+        <CheckBox
+            android:id="@+id/cbEndulzante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Endulzante sin calorías"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btnContinuar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continuar con el pedido" />
+
+    </LinearLayout>
+</ScrollView>

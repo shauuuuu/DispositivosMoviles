@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tarea03_PDM</string>
+
+    <string-array name="opciones_drawer">
+        <item>Nuevo pedido</item>
+        <item>Modificar pedido</item>
+        <item>Cancelar pedido</item>
+        <item>Historial de compras</item>
+        <item>Configuración</item>
+    </string-array>
+
+    <string name="action_buscar">Buscar</string>
+    <string name="action_compartir">Compartir</string>
+    <string name="action_info">Información</string>
+</resources>
